@@ -9,7 +9,7 @@ repos:
       - id: check-merge-conflict
       - id: no-commit-to-branch
   - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.81.0
+    rev: v1.83.0
     hooks:
       - id: terraform_fmt
       - id: terraform_docs
@@ -21,6 +21,6 @@ repos:
     hooks:
       - id: yamllint
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: 3.5.3
+    rev: 3.7.0
     hooks:
       - id: commitizen
