@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: end-of-file-fixer
       - id: trailing-whitespace
@@ -9,7 +9,7 @@ repos:
       - id: check-merge-conflict
       - id: no-commit-to-branch
   - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.83.0
+    rev: v1.83.5
     hooks:
       - id: terraform_fmt
       - id: terraform_docs
@@ -21,6 +21,6 @@ repos:
     hooks:
       - id: yamllint
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: 3.7.0
+    rev: 3.12.0
     hooks:
       - id: commitizen
